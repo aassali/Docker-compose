@@ -1,5 +1,5 @@
 <?php
-/*$host= 'db';
+$host= 'db';
 $user = 'devuser';
 $pass = 'devpass';
 $db = 'test_db';
@@ -9,8 +9,8 @@ $conn = new mysqli($host,$user,$pass,$db);
 if($conn->connect_error){
     echo 'connection failed' . $conn->connect_error;
 }
-echo 'Sucessfully connected to MYSQL';*/
-$host = "localhost";
+echo 'Sucessfully connected to MYSQL';
+/*$host = "localhost";
 $user = "devuser";
 $pass = "devpass";
 $db = "test_db";
@@ -27,6 +27,6 @@ catch(PDOException $e){
     echo $e->getMessage();
 }
 
-$conn = null;
+$conn = null;*/
 
 ?>
